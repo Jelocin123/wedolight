@@ -37,9 +37,9 @@ const MyNav = () => {
 
       <div className="container p-0">
         <nav id={navMenu.nav_desktop} className="row mt-5 ms-auto mb-5 me-0">
-          <a href="/" className="col-lg-3 col-md-4 me-lg-4 col-sm-5 col-12 ps-0 pe-0 ps-4 ps-md-0 ps-lg-0">
+          <Link href="/" className="col-lg-3 col-md-4 me-lg-4 col-sm-5 col-12 ps-0 pe-0 ps-4 ps-md-0 ps-lg-0">
             <Image src={logo} alt="logo" className="img-fluid " />
-          </a>
+          </Link>
 
           <ul
             id={navMenu.outline}

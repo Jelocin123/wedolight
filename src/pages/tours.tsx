@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import square from '../assets/square.png';
 import triangle from '../assets/triangle.png'
 import round from '../assets/circle.png'
-
+import Link from "next/link";
 
 const Tours = ()=> {
 
@@ -44,9 +44,9 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3 " id={tours.fig_cap}>square</figcaption>
                 <figure>
-                <a href="/" className="">
+                <Link href="/" className="">
                 <Image src={square} alt="squre" className="img-fluid"/>
-                </a>
+                </Link>
                 </figure>
 
             </section>
@@ -55,9 +55,9 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3" id={tours.fig_cap}>triangle</figcaption>
                 <figure>
-                <a href="/" className="">
+                <Link href="/" className="">
                 <Image src={triangle} alt="triangle" className="img-fluid mt-lg-3"/>
-                </a>
+                </Link>
                 </figure>
 
             </section>
@@ -66,9 +66,9 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3 " id={tours.fig_cap}>circle</figcaption>
                 <figure>
-                <a href="/" className="">
+                <Link href="/" className="">
                 <Image src={round} alt="triangle" className="img-fluid mt-lg-3"/>
-                </a>
+                </Link>
                 </figure>
 
             </section>
