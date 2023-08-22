@@ -59,7 +59,7 @@ const MyNav = () => {
             className="btn col-1 d-none d-lg-block d-md-block mt-4 text-center p-1 mb-3 ms-auto me-0"
             id={navMenu.time}
             onClick={() => {
-              if (router.pathname === "/tours") {
+              if (router.pathname === "/tours", "about", "contact") {
                 setShowModal(true);
               }
             }}
