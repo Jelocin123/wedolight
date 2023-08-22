@@ -35,7 +35,7 @@ const MyFeed = ()=>{
 
         <div className='row'>
 
-        <p className='col-12'>looked up one of the more obscure Lation words, consectetur <br/>from a Lorem Ipsum passage, and going through the cites of the word <br/>in classical literature, discovered the undoubtable source. <br/>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de</p>
+        <p className='col-12'>looked up one of the more obscure Lation words, consectetur <br/>from a Lorem Ipsum passage, and going through the cites of the word <br/>in classical literature, discovered the undoubtable source. <br/>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de</p>
         </div>
         </div>
        </div>
