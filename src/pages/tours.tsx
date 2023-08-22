@@ -28,7 +28,7 @@ const Tours = ()=> {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="container">
-          <div className="row mx-auto text-center pt-lg-1 ">
+          <div className="row mx-auto text-center pt-lg-1 position-static">
 
             <Image 
               src={image}
@@ -44,7 +44,7 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3 " id={tours.fig_cap}>square</figcaption>
                 <figure>
-                <Link href="/" className="">
+                <Link href="/" className="hej">
                 <Image src={square} alt="squre" className="img-fluid"/>
                 </Link>
                 </figure>
@@ -55,8 +55,8 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3" id={tours.fig_cap}>triangle</figcaption>
                 <figure>
-                <Link href="/" className="">
-                <Image src={triangle} alt="triangle" className="img-fluid mt-lg-3"/>
+                <Link href="/" className="hej">
+                <Image src={triangle} alt="triangle" className="img-fluid mt-lg-3" priority/>
                 </Link>
                 </figure>
 
@@ -66,7 +66,7 @@ const Tours = ()=> {
 
                 <figcaption className="mb-4 mt-3 " id={tours.fig_cap}>circle</figcaption>
                 <figure>
-                <Link href="/" className="">
+                <Link href="/" className="hej">
                 <Image src={round} alt="triangle" className="img-fluid mt-lg-3"/>
                 </Link>
                 </figure>
